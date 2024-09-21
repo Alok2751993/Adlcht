@@ -70,7 +70,7 @@ def main():
 
   st.header("<h1 style='color: #3498db; text-align: center;'>Chat with PDF using Gemini</h1>")  # Colored header with center alignment
 
-  user_question = st.text_input("**Ask a Question from the PDF Files**", key="question_input", style="font-size: 18px; padding: 10px; border: 1px solid #ddd; border-radius: 5px;")  # Styled text input
+  user_question = st.text_input("**Ask a Question from the PDF Files**", key="question_input")  # Styled text input
 
   if user_question:
     user_input(user_question)
