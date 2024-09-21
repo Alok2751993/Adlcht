@@ -1,4 +1,3 @@
-$ pip install PyPDF2
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -13,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-genai.configure(api_key = os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key = os.getenv("GOOGLE_API_KEY")) 
 
 GOOGLE_API_KEY = "AIzaSyA6as_0CqEbgQkDTqRthkTZ08iPRB3BaDc"
 
