@@ -1,10 +1,3 @@
-!pip install streamlit
-!pip install PyPDF2
-!pip install langchain
-!pip install langchain-google-genai
-!pip install -U langchain-community
-!pip install google-generativeai
-!pip install python-dotenv
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
