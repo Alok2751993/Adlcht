@@ -95,11 +95,4 @@ def main():
 st.success("Done!")
 
 if __name__ == "__main__":
-    pass
-    pandas
-plotly
-streamlit
-yfinance
-pandas-datareader
-prophet
 
