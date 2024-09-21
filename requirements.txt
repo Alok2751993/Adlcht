@@ -2,4 +2,4 @@ PyPDF2
 langchain
 langchain_google_genai
 langchain-community
-streamlit
+streamlit 1.26.0
