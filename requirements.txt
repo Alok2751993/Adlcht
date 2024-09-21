@@ -4,3 +4,4 @@ langchain_google_genai
 langchain-community
 streamlit>=1.26.0
 faiss
+pip install --upgrade pip
